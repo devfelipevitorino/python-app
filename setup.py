@@ -4,11 +4,11 @@ script = "app.py"
 
 setup(
     name="Magnolias",
-    version="1.0",
+    version="2.0",
     description="",
     options={
         "build_exe": {
-            "include_files": [], 
+            "include_files": ["icon.ico"], 
         }
     },
     executables=[Executable(script, base="Win32GUI")]
